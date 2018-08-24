@@ -1,7 +1,7 @@
 {
-  "name": "gulp-useref",
+  "name": "gulp-useref-sfbest",
   "version": "3.1.5",
-  "description": "Parse build blocks in HTML files to replace references to non-optimized scripts or stylesheets.",
+  "description": "Parse build blocks in HTML files to replace references to non-optimized scripts or stylesheets.Customized by sfbest.",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -15,7 +15,7 @@
     "is-relative-url": "1.0.0",
     "plugin-error": "^1.0.1",
     "through2": "^2.0.3",
-    "useref": "^1.4.1",
+    "useref-sfbest": "^1.4.1",
     "vinyl-fs": "^3.0.2"
   },
   "devDependencies": {
@@ -43,7 +43,7 @@
     "index.js",
     "lib"
   ],
-  "repository": "jonkemp/gulp-useref",
+  "repository": "silenjs/gulp-useref-sfbest",
   "keywords": [
     "gulpplugin",
     "html",
@@ -52,6 +52,6 @@
     "optimize",
     "concat"
   ],
-  "author": "Jonathan Kemp <kempdogg@gmail.com> (http://jonkemp.com/)",
+  "author": "silenjs <silenjs@gmail.com>",
   "license": "MIT"
 }
