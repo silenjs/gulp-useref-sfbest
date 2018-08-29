@@ -90,8 +90,8 @@ function addAssetsToStream(paths, files) {
         .pipe(
             through.obj(function (newFile, encoding, callback) {
                 // specify an output path relative to the cwd
-                if (options.base) {
-                    newFile.path = path.join(options.base, name);
+                if (options.base && options.noconcat) {
+                    // newFile.path = path.join(options.base, name);
                     newFile.base = options.base;
                 }
 
